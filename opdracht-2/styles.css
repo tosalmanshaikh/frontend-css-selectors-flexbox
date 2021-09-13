@@ -23,52 +23,53 @@
 .three{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 30px;
+
 
     align-items: baseline;
 
+}
 
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 300px;
 }
 
 .four {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-content: space-evenly;
-    flex-basis: available;
-    margin: 50px;
-    padding-top: 50px;
-    align-items: center;
+
 
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
 .five {
     display: flex;
-    flex-wrap: wrap-reverse;
-    flex-basis: 100px;
-    display: inline-block;
-
-}
-
-.box1{
-    display: inline-block;
-    vertical-align: top; //also can try other align settings
-    width: 45%;
-
-}
-
-.box2{
     flex-direction: row;
-    margin-left:30px;
+    flex-wrap: wrap;
 
 }
 
-.box3{
-    flex-direction: row-reverse;
+article{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 350px;
+    flex-grow: 1;
 
 }
+
 
 
