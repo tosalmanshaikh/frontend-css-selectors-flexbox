@@ -5,18 +5,22 @@
 /* 0: Voorbeeld: maak de achtergrondkleur van de pagina wit */
 
 body {
-    background-color: #FFFFFF;
+    background-color: white;
 }
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
 
-#header-image {
+#image {
     width: 100%;
 }
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
-.places-to-visit {
+/*.places-to-visit {*/
+/*    color: hsl(110, 29%, 52%);*/
+/*}*/
+
+li {
     color: hsl(110, 29%, 52%);
 }
 
@@ -32,9 +36,9 @@ a {
     color: hsl(359, 79%, 56%);
 }
 
-a:link {
-    color: red;
-}
+/*a:link {*/
+/*    color: purple;*/
+/*}*/
 
 /* visited link */
 a:visited {
@@ -54,9 +58,9 @@ a:active {
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
 
-main {
-    opacity: 1.0;
-}
+/*main {*/
+/*    opacity: 1.0;*/
+/*}*/
 
 li:hover {
     opacity: 0.5;
@@ -71,14 +75,13 @@ li:hover {
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-input:focus {
-    border-color: blue;
-}
+/*input:focus {*/
+/*    border-color: blue;*/
+/*}*/
 
 .text:focus {
     border-color: blue;
 }
-
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
 

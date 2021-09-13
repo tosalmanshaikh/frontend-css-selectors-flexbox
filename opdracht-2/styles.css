@@ -20,16 +20,18 @@
 
 }
 
-.three{
+.three {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 30px;
-
-
-    align-items: baseline;
-
 }
+
+
+li {
+    list-style: none;
+}
+
 
 ul{
     display: flex;
