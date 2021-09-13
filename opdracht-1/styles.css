@@ -10,32 +10,81 @@ body {
 
 /* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
 
-
+#header-image {
+    width: 100%;
+}
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
-
+.places-to-visit {
+    color: hsl(110, 29%, 52%);
+}
 
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
-
+.copyright {
+    font-size: 10px;
+}
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
+a {
+    color: hsl(359, 79%, 56%);
+}
 
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
 
+main {
+    opacity: 1.0;
+}
+
+li:hover {
+    opacity: 0.5;
+}
+
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-
+.button {
+    background-color: green;
+}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
+input:focus {
+    border-color: blue;
+}
+
+.text:focus {
+    border-color: blue;
+}
 
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
+
+h1, h2, h3 {
+    font-family: "noto sans" sans-serif;
+}
+
 
 

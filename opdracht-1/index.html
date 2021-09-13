@@ -19,7 +19,10 @@
             </nav>
         </header>
 
-        <img src="assets/header-image.jpg" alt="Tutti">
+<!--        this is what you changed here: you added an id-->
+        <img id="header-image" src="assets/header-image.jpg" alt="Tutti">
+<!--        this was the original
+<img src="assets/header-image.jpg" alt="Tutti">-->
 
         <main>
             <h1>Latest Articles</h1>
@@ -34,7 +37,7 @@
 
             <div>
                 <div class="places-to-visit">
-                    <h2>Best places to visit</h2>
+                    <h2 class="heading">Best places to visit</h2>
                     <ul>
                         <li>Nulla lacus risus, laoreet tempus</li>
                         <li>Praesent sit amet auctor sapien sit amet</li>
@@ -45,14 +48,14 @@
                 <div class="subscribe">
                     <h3>Stay up to date of all the travels</h3>
                     <p>Vestibulum <a href="#">erat augue</a>, consequat non tellus ac, posuere scelerisque augue.</p>
-                    <input type="text" placeholder="Enter email...">
-                    <input type="submit" value="Signup">
+                    <input class="text" type="text" placeholder="Enter email...">
+                    <input class="button" type="submit" value="Signup">
                 </div>
             </div>
         </main>
 
         <footer>
-            <span>&copy;2020 Ciao Tutti Blog</span>
+            <span class="copyright">&copy;2020 Ciao Tutti Blog</span>
         </footer>
     </div>
 </body>
