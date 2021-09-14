@@ -33,12 +33,13 @@ li {
 }
 
 
-ul{
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-basis: 300px;
+    flex-basis: 500px;
 }
+
 
 .four {
     display: flex;
@@ -56,8 +57,6 @@ form {
 }
 
 
-
-
 .five {
     display: flex;
     flex-direction: row;
@@ -65,7 +64,7 @@ form {
 
 }
 
-article{
+article {
     display: flex;
     flex-direction: row;
     flex-basis: 350px;
